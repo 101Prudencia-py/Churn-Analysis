@@ -1,4 +1,5 @@
 # SYRIATEL Churn-Analysis
+[Alt Text](./churn-rate.png)
 Churn Analysis on SyriaTel,  a telecommunications company
 
 # OVERVIEW
