@@ -1,6 +1,5 @@
 # SYRIATEL Churn-Analysis
-[Alt Text](./churn-rate.png)
-Churn Analysis on SyriaTel,  a telecommunications company
+![churn image 1](https://github.com/101Prudencia-py/Churn-Analysis/assets/141912223/1bc2b90f-5cf3-49cc-96c6-319ae99f1f6b)
 
 # OVERVIEW
 Syriatel is one of the major telecommunications companies in Syria, providing a range of services including mobile and fixed-line telephony, internet, and other related services. Conducting a churn analysis for Syriatel involves examining customer behaviors and patterns to predict which customers are likely to discontinue their services with the company.
@@ -36,6 +35,7 @@ We evaluated our models based on the recall score metric as well as the correspo
 
 The decision behind choosing to evaluate the model on recall was made by considering the cost and impact of false negative predictions, that is, we determined that it was more costly for the company for the model to predict that a customer would stay with SyriaTel when in fact that would churn/leave. This would lead to a missed opportunity for the company to dedicate retention resources towards that customer and keeping their business. Maximising recall score accounts for this scenario in our model and so it was for this reason that we chose this as our evaluation metric.
 
+![churn](churn-rate.png)
 # CONCLUSION
 The random forest classier performed the best with a recall of 79%, indicating that the model correctly identified around 79% of the actual positive cases, which isn't bad. And an acccuracy score of 93%.
 
